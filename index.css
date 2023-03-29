@@ -39,7 +39,7 @@ form {
     margin: 0;
     padding: 24px 0;
     display: grid;
-    grid-template-columns: 1fr 100px 1fr 312px 1fr 132px 1fr;
+    grid-template-columns: 1fr 3fr 1fr 10fr 1fr 3fr 1fr
 }
 
 input[type=color] {
@@ -115,7 +115,7 @@ select:focus {
 
 @media (max-width: 576px) {
     form {
-        grid-template-columns: 1fr 100px 1fr 350px 1fr;
+        grid-template-columns: 1fr 6fr 1fr 16fr 1fr;
         grid-template-rows: 1fr 1fr;
         row-gap: 18px;
     }
