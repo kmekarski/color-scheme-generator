@@ -5,11 +5,11 @@ const seedColorInput = document.getElementById('seed-color')
 const schemeModeInput = document.getElementById('scheme-mode')
 
 let colors = [
-    '#F55A5A',
-    '#2B283A',
-    '#FBF3AB',
-    '#AAD1B6',
-    '#A626D3'
+    '#C01010',
+    '#ED1515',
+    '#F24444',
+    '#F67373',
+    '#F9A2A2'
 ]
 
 document.addEventListener('click', e => {
